@@ -1,0 +1,55 @@
+body{
+    background-image: url(/public/Imgs/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.App{
+    text-align: center;
+    margin: 150px 30%;
+}
+.App h2{
+    color: black;
+}
+.App ul{
+    list-style: "🫠";
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px;
+    color: #946057;
+}
+.App input{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 20px;
+    color: #946057;
+}
+.App button{
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 30px;
+    background-color: #946057;
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 15px;
+    border: 0;
+}
+.App ul li{
+    /*word-wrap: break-word;*/
+    overflow-wrap: break-word;
+}
+.chStyle{
+    list-style: "✅";
+    text-decoration: line-through;
+}
+.div1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+::placeholder{
+    color : #946057;
+}
